@@ -1,7 +1,8 @@
+"""This model is Database Context Manager"""
 import sqlite3
 
 class DBCM():
-  """Create a context manager DBCM class to manage the database connections"""
+  """DBCM class to manage the database connections"""
   def __init__(self, db_name):
     """Initializes the variables."""
     try:
